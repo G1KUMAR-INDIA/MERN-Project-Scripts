@@ -3,7 +3,7 @@ cd server
 echo "Server">server.js
 npm init -y
 npm i nodemon express dotenv cors mongoose body-parser multer
-cat > <<EOL
+cat > package.json <<EOL
 {
   "name": "server",
   "version": "1.0.0",
@@ -27,5 +27,4 @@ cat > <<EOL
     "nodemon": "^3.1.9"
   }
 }
-
 EOL
